@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.sshakusora.simplytentsblacklist.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "simplytentsblacklist.refmap.json",
+  "mixins": [
+    "MyGeoBlockMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
